@@ -1,4 +1,4 @@
-2020 | 2nd semester of Engineering Studies
+2020 | 2nd semester of Computer Science
 # Data Visualization - Engineering Studies
 
 This repository contains a collection of exercises and solutions related to basic data manipulation and visualization. The exercises are designed to develop fundamental programming skills in Python, with a focus on **NumPy** and **Pandas** for data handling and **Matplotlib** for visualizing data.
