@@ -1,0 +1,26 @@
+---
+title: "Zestaw 2 - próbny"
+output:
+  word_document: default
+  pdf_document: default
+header-includes: 
+  \usepackage[polish]{babel}
+---
+
+
+Zad.1. Odtwórz wykres z pliku `zad1.png`. Wynik zapisz w formacie pdf.
+
+Zad.2. W pliku `samochody.csv` znajdują się dane o samochodach zarejestrowanych na terenie miasta Olsztyn w 2017 roku według ich pojemności silnika. Na podstawie tych danych przygotuj wykres kołowy prezentujący dane z pliku. Wykres zapisz w formacie pdf.
+
+Inspirację do wykresu znajdziesz w pliku `zad2.png`.
+
+Zad.3. Załaduj plik `sklepy.csv` jako ramkę danych i wykonaj poniższe czynności:
+
+* ustaw kolumnę z typami sklepów jako indeksy,
+* stwórz zmienną (wektor, listę, ramkę danych, serię lub tablicę) przechowującą informację o liczbie obiektów poszczególnych rodzajów sklepów w 2016 roku,
+* stwórz wykres słupkowy prezentujący rodzaje sklepów w 2016 roku. Wykres powinien posiadać tytuł i odpowiednio podpisaną podziałkę.
+
+Inspirację do wykresu znajdziesz w pliku `zad3.png`.
+
+Źródło danych: Bank Danych Lokalnych GUS.
+

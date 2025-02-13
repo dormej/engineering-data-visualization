@@ -1,0 +1,42 @@
+Preludium:
+1. Utworzyć plik main.py na rozwiązania zadań
+2. Wczytać plik movie.csv do obiektu movies klasy DataFrame
+
+Zadania:
+1. (5 pkt) Utworzyć funkcję get_statistical_params, która zwróci podstawowe parametry statystyczne kolumn
+z obiektu movies, o najczęściej występującym typie, w postaci obiektu klasy DataFrame,
+gdzie indeksem będzie nazwa kolumny, a kolumnami będą parametry statystyczne, takie jak:
+- count - liczebność kolumny,
+- mean - średnia arytmetyczna,
+- std - odchylenie standardowe,
+- min - wartość minimalna,
+- 25% - pierwszy kwartyl,
+- 50% - drugi kwartyl,
+- 75% - trzeci kwartyl,
+- max - wartość największa.
+Funkcja musi również mieć możliwość dokonywania tej samej operacji dla innych ramek danych.
+
+2. (2 pkt) Utworzyć funkcję add_actor_total_fb_likes, która przyjmie jako parametr obiekt movies
+i zwróci go z dodaną kolumną actor_total_fb_likes, która będzie zawierała sumę wartości
+w kolumnach actor_1_facebook_likes, actor_2_facebook_likes, actor_3_facebook_likes
+
+3. (3 pkt) Utworzyć funkcję get_min_imdb_score, która zwróci 10 tytułów filmów z najniższą oceną
+w bazie IMDB jako tablicę typu numpy.ndarray
+
+4. (4 pkt) Utworzyć funkcję get_rows_cols, która zwróci wiersze i kolumny według podanego schematu.
+Wiersze w zakresie od X do Y z przeskokiem co Z + X, oraz kolumny od 1 do ostatniej z przeskokiem co Z.
+Funkcja powinna przyjmować obiekt klasy DataFrame oraz zmienne X, Y, Z oraz zwracać obiekt klasy DataFrame.
+Niech X będzie liczbą samogłosek w nazwisku, Y będzie sumą cyfr w numerze indeksu pomnożoną przez trzecią cyfrę numeru indeksu, Z będzie liczbą samogłosek w imieniu.
+
+5. (6 pkt) Utworzyć siatkę wykresów o rozmiarze 3 x 3 i wypełnić po skosie od lewego górnego rogu 3 wizualizacjami dotyczących pierwszych 8 filmów:
+a) słupkowy długości filmów zatytułowany "długość filmów" wraz z legendą zatytułowaną "legenda"
+b) punktowy zatytułowany "wykres punktowy" gdzie
+- oś x: wartości z kolumny actor_1_facebook_likes z ramki movies pomnożone przez wartość losoaw z zakresu od X do Y, nadać etykietę osi zgodnie z nazwą prezentowanej kolumny
+- oś y: wartości z kolumny actor_3_facebook_likes z ramki movie pomnożone przez wartość losowa od X do Y, nadać etykietę osi zgodnie z nazwą prezentowanej kolumny
+- kolor: wartość losowa od X do 3X,
+- rozmiar: wartośc losowa od X do X + Z
+c) kołowy z legendą z pokazanym udziałem procentowym reżysera w rozpatrywanych filmach zatytułowany "udział reżysera"
+
+Rozwiązania w folderze z numerem indeksu należy spakować do archiwum ZIP i wysłać jako załącznik na adres tomasz.krzywicki@matman.uwm.edu.pl.
+Wiadomość należy zatytułować następująco: "k2 v1 WD grupa [nr_grupy] [imie_i_nazwisko] [nr_indeksu]".
+Treść wiadomości powinna być taka sama, jak tytuł.
