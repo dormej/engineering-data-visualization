@@ -21,7 +21,7 @@ The repository includes solutions to various exercises, including but not limite
 - **Basic Computational Tasks** - Implementing algorithms for mathematical tasks and logical problem-solving.
 
 ## Installation
-Clone the repository to your local machine:
+1. Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/dormej/data-visualization.git
